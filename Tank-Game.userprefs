@@ -1,0 +1,20 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\UI\Horizontal_Rotation_Bar.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Player_Turret_Rotate.cs" Line="42" Column="85" />
+      <File FileName="Assets\Scripts\Stay_With_Parent.cs" Line="15" Column="35" />
+      <File FileName="Assets\Scripts\Friendly_Bullet.cs" Line="31" Column="25" />
+      <File FileName="Assets\Scripts\Player_Body_Movement.cs" Line="73" Column="3" />
+      <File FileName="Assets\Scripts\Player_Turret_Fire_Main.cs" Line="21" Column="40" />
+      <File FileName="Assets\Scripts\Attackable.cs" Line="7" Column="9" />
+      <File FileName="Assets\Scripts\UI\Health_Bar.cs" Line="15" Column="3" />
+      <File FileName="Assets\Scripts\UI\Vertical_Speed_Bar.cs" Line="15" Column="3" />
+      <File FileName="Assets\Scripts\UI\Horizontal_Rotation_Bar.cs" Line="15" Column="113" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -60,9 +60,15 @@ public class Player_Body_Movement : MonoBehaviour {
 			}
 
 		}
-		Debug.Log (m_currentRotation);
 		m_currentRotation += curRotSpeed * Time.deltaTime;
 		m_body.transform.Translate (new Vector2(0f,curSpeed * Time.deltaTime));
 		m_body.transform.rotation = Quaternion.Euler (new Vector3(0f,0f,m_currentRotation));
-}
+	}
+	public float ReturnSpeed(){
+		return curSpeed;
+	}
+
+	public float ReturnRotation(){
+		return curRotSpeed;
+	}
 }

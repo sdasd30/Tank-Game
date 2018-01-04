@@ -33,7 +33,6 @@ public class Player_Turret_Rotate : MonoBehaviour {
 
 
 		if (!Input.GetKey ("right") && curRotSpeed < 1f && curRotSpeed != 0) { //Slow stop
-			Debug.Log ("SlowStop: Right");
 			if (curRotSpeed > -2f) {
 				curRotSpeed = 0f;
 			}
@@ -41,7 +40,6 @@ public class Player_Turret_Rotate : MonoBehaviour {
 		}
 			
 		if (!Input.GetKey ("left") && curRotSpeed > -1f && curRotSpeed != 0) { //Slow Stop
-			Debug.Log ("SlowStop: Left");			
 			if (curRotSpeed < 2f) {
 				curRotSpeed = 0f;
 			}

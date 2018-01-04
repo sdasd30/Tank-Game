@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{20D5E5A1-1C00-ACDC-B1A6-78EB40F5DD0A}</ProjectGuid>
+    <ProjectGuid>{EB2F4F19-3B2D-D3B6-3BB9-620EE8C2E736}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -51,10 +51,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Attackable.cs" />
      <Compile Include="Assets\Scripts\Friendly_Bullet.cs" />
      <Compile Include="Assets\Scripts\Player_Body_Movement.cs" />
      <Compile Include="Assets\Scripts\Player_Turret_Fire_Main.cs" />
      <Compile Include="Assets\Scripts\Player_Turret_Rotate.cs" />
+     <Compile Include="Assets\Scripts\Solid.cs" />
+     <Compile Include="Assets\Scripts\Stay_With_Parent.cs" />
+     <Compile Include="Assets\Scripts\UI\Health_Bar.cs" />
+     <Compile Include="Assets\Scripts\UI\Horizontal_Rotation_Bar.cs" />
+     <Compile Include="Assets\Scripts\UI\Vertical_Speed_Bar.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
