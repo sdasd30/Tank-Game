@@ -13,6 +13,6 @@ Actually it might.
 Who knows?
 
 
-![gameplay](https://raw.githubusercontent.com/sdasd30/Tank-Game/master/screenshot.png)
+![gameplay](https://raw.githubusercontent.com/sdasd30/Tank-Game/master/screenshot.PNG)
 
 [Heres a download link.](https://drive.google.com/file/d/1j1QGa1IHk2dAKOVhnHS9OxEHb9j-zTIe/view?usp=sharing)
