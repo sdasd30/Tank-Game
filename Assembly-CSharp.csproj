@@ -52,10 +52,13 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Attackable.cs" />
-     <Compile Include="Assets\Scripts\Friendly_Bullet.cs" />
-     <Compile Include="Assets\Scripts\Player_Body_Movement.cs" />
+     <Compile Include="Assets\Scripts\Enemy_Movement.cs" />
+     <Compile Include="Assets\Scripts\Enemy_Turret_Fire_Main.cs" />
+     <Compile Include="Assets\Scripts\Enemy_Turret_Rotate.cs" />
+     <Compile Include="Assets\Scripts\Player_Movement.cs" />
      <Compile Include="Assets\Scripts\Player_Turret_Fire_Main.cs" />
      <Compile Include="Assets\Scripts\Player_Turret_Rotate.cs" />
+     <Compile Include="Assets\Scripts\Projectile.cs" />
      <Compile Include="Assets\Scripts\Solid.cs" />
      <Compile Include="Assets\Scripts\Stay_With_Parent.cs" />
      <Compile Include="Assets\Scripts\UI\Health_Bar.cs" />

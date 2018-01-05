@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Attackable : MonoBehaviour {
 	public float maxHP;
-	public float hp;
+	float hp;
 	// Use this for initialization
 	void Start () {
 		hp = maxHP;

@@ -3,13 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent (typeof (Rigidbody2D))]
-public class Friendly_Bullet : MonoBehaviour {
+public class Projectile : MonoBehaviour {
 	Rigidbody2D m_body;
 	public float speed;
 	public float damage;
-	float angle;
 	public void SetAngle (float rotation) {
-		angle = rotation;
 		m_body = GetComponent<Rigidbody2D> ();
 		m_body.transform.rotation = Quaternion.Euler (new Vector3(0f,0f,rotation));
 	}

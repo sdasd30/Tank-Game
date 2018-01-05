@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 [RequireComponent (typeof (Rigidbody2D))]
 
-public class Player_Body_Movement : MonoBehaviour {
+public class Player_Movement : MonoBehaviour {
 	public float speed = 3;
 	public float rotSpeed = 60;
 	public float rotLimit = 60;
@@ -19,7 +19,6 @@ public class Player_Body_Movement : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		Vector2 vel = new Vector2 ();
 		if (Input.GetKey("a")){
 			//Debug.Log (curRotSpeed);
 			if (curRotSpeed < rotLimit) {
@@ -42,6 +41,25 @@ public class Player_Body_Movement : MonoBehaviour {
 				curSpeed -= speed;
 			}
 		}
+		if (Input.GetKey("c")){ //Kill Rot
+			if (curRotSpeed > 4f) { //For Rotation
+				curRotSpeed -= 4f;
+			} else if (curRotSpeed < -8f) {
+				curRotSpeed += 4f;
+			} else {
+				curRotSpeed = 0f;
+			}
+		}
+
+		if (Input.GetKey ("z")) { //Kill speed
+			if (curSpeed > .1f) { //For Regular Movement
+				curSpeed -= .1f;
+			} else if (curSpeed < -.1f){
+				curSpeed += .1f;
+			} else {
+				curSpeed = 0f;
+			}
+		}
 		if (Input.GetKey("x")){ //Stop all Movement
 			if (curSpeed > .1f) { //For Regular Movement
 				curSpeed -= .1f;
@@ -52,7 +70,7 @@ public class Player_Body_Movement : MonoBehaviour {
 			}
 
 			if (curRotSpeed > 4f) { //For Rotation
-				curRotSpeed -= 2f;
+				curRotSpeed -= 4f;
 			} else if (curRotSpeed < -8f) {
 				curRotSpeed += 4f;
 			} else {

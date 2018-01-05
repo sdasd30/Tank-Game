@@ -19,7 +19,7 @@ public class Player_Turret_Fire_Main : MonoBehaviour {
 			if (coolDown <= 0) { 
 				float angle = (transform.rotation.eulerAngles.z + 90) * Mathf.Deg2Rad;
 				GameObject bullet = GameObject.Instantiate (BulletPrefab, transform.position + new Vector3 (Offset.x * Mathf.Cos (angle), Offset.y * Mathf.Sin (angle), 0f), Quaternion.identity);
-				bullet.GetComponent<Friendly_Bullet> ().SetAngle (transform.rotation.eulerAngles.z);
+				bullet.GetComponent<Projectile> ().SetAngle (transform.rotation.eulerAngles.z);
 				Destroy (bullet, 5);
 				coolDown = fireRate;
 			} else {

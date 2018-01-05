@@ -21,9 +21,9 @@ GameObject:
   - component: {fileID: 4478232528764698}
   - component: {fileID: 212372587483307274}
   - component: {fileID: 50041859915409186}
-  - component: {fileID: 114694764337319908}
-  - component: {fileID: 114618326799960878}
   - component: {fileID: 114019457284709792}
+  - component: {fileID: 114681454893632460}
+  - component: {fileID: 114272247729086618}
   m_Layer: 8
   m_Name: Tank_Turret
   m_TagString: Untagged
@@ -40,9 +40,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4511998680049272}
   - component: {fileID: 212226527438269538}
-  - component: {fileID: 114042448312915476}
   - component: {fileID: 50915408751944434}
   - component: {fileID: 61121174741028788}
+  - component: {fileID: 114599758789698050}
+  - component: {fileID: 114845506871272788}
   m_Layer: 8
   m_Name: Tank_Enemy
   m_TagString: Player
@@ -154,7 +155,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   offset: {x: 0, y: 0.08500993}
---- !u!114 &114042448312915476
+--- !u!114 &114272247729086618
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1076247975163254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0c84ec29e85e6e458defd7fb2c910c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectile: {fileID: 0}
+  BulletPrefab: {fileID: 1733077873143566, guid: cbf3e2d373f8bec43a6589aa203a94e9,
+    type: 2}
+  Offset: {x: 1.5, y: 1.5}
+  fireRate: 250
+  coolDown: 0
+--- !u!114 &114599758789698050
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -162,42 +180,39 @@ MonoBehaviour:
   m_GameObject: {fileID: 1573411140239596}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a9e7098c32db4d418ba21b89edca39e, type: 3}
+  m_Script: {fileID: 11500000, guid: e67c400e73db7ea4cba5bfc1a09b5082, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.05
-  rotSpeed: 30
+  maxHP: 50
+--- !u!114 &114681454893632460
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1076247975163254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1c79dc433d254844a3ced0e92f69fe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotSpeed: 15
+  direction: 0
+  angle: 0
+--- !u!114 &114845506871272788
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1573411140239596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a752b855bf49614c97d2ef9507bbcb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+  rotSpeed: 60
   rotLimit: 60
-  speedLimit: 2
---- !u!114 &114618326799960878
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1076247975163254}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 402dbbbc8822dff4db65a38e2facd6b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  projectile: {fileID: 0}
-  BulletPrefab: {fileID: 1938260488011398, guid: 9e6bbc72e5207314d9baa35bd457cb5e,
-    type: 2}
-  Offset: {x: 1.5, y: 1.5}
-  fireRate: 100
---- !u!114 &114694764337319908
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1076247975163254}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49152e7a9f27e0f4d92046e4ced7c6a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rotSpeed: 90
-  rotLimit: 180
+  speedLimit: 3
 --- !u!212 &212226527438269538
 SpriteRenderer:
   m_ObjectHideFlags: 1

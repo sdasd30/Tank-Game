@@ -4,14 +4,15 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Vertical_Speed_Bar : MonoBehaviour {
-	Player_Body_Movement player;
+	Player_Movement player;
 	// Use this for initialization
 	void Start () {
-		player = GameObject.FindObjectOfType<Player_Body_Movement>();
+		player = GameObject.FindObjectOfType<Player_Movement>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		this.GetComponent<Slider>().value = player.gameObject.GetComponent<Player_Body_Movement> ().ReturnSpeed(); 
+		if (player != null)
+		this.GetComponent<Slider>().value = player.gameObject.GetComponent<Player_Movement> ().ReturnSpeed(); 
 	}
 }
