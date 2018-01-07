@@ -29,8 +29,9 @@ public class Player_Turret_Fire_Main : MonoBehaviour {
 		if (Input.GetKey ("r")) {
 			coolDown--;
 		}
-		if (coolDown == 0) {
-			Debug.Log ("Ready to Fire!");
-		}
+	}
+
+	public float ReturnCoolDown(){
+		return coolDown;
 	}
 }

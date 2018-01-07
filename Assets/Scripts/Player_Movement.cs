@@ -10,11 +10,12 @@ public class Player_Movement : MonoBehaviour {
 	public float speedLimit = 3;
 	float curRotSpeed = 0;
 	float curSpeed = 0;
-	float m_currentRotation = 0;
+	float m_currentRotation;
 	Rigidbody2D m_body;
 	// Use this for initialization
 	void Start () {
 		m_body = GetComponent<Rigidbody2D> ();
+		m_currentRotation = transform.eulerAngles.z;
 	}
 	
 	// Update is called once per frame

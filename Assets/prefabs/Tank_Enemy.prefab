@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 61121174741028788}
   - component: {fileID: 114599758789698050}
   - component: {fileID: 114845506871272788}
+  - component: {fileID: 114442267569036348}
   m_Layer: 8
   m_Name: Tank_Enemy
   m_TagString: Player
@@ -70,14 +71,14 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1573411140239596}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.3, y: -2.13, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -491.3, y: -171.13, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 5}
   m_Children:
   - {fileID: 4478232528764698}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!50 &50041859915409186
 Rigidbody2D:
   serializedVersion: 4
@@ -172,6 +173,17 @@ MonoBehaviour:
   Offset: {x: 1.5, y: 1.5}
   fireRate: 250
   coolDown: 0
+--- !u!114 &114442267569036348
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1573411140239596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a646a8704878b0346900b2c87f7738b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114599758789698050
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -210,7 +222,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  rotSpeed: 60
+  rotSpeed: 20
   rotLimit: 60
   speedLimit: 3
 --- !u!212 &212226527438269538

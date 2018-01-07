@@ -17,12 +17,11 @@ public class Enemy_Movement : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		m_body = GetComponent<Rigidbody2D> ();
-
+		m_currentRotation = transform.eulerAngles.z;
 	}
 
 	// Update is called once per frame
 	void Update () {
-		Debug.Log (player.transform.position);
 		m_currentRotation += curRotSpeed * Time.deltaTime;
 		m_body.transform.Translate (new Vector2(0f,curSpeed * Time.deltaTime));
 		m_body.transform.rotation = Quaternion.Euler (new Vector3(0f,0f,m_currentRotation));

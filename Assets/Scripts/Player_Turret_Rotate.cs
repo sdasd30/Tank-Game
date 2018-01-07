@@ -8,11 +8,11 @@ public class Player_Turret_Rotate : MonoBehaviour {
 	public float rotSpeed = 90;
 	public float rotLimit = 180;
 	float curRotSpeed = 0;
-	float m_currentRotation = 0;
+	float m_currentRotation;
 	// Use this for initialization
 	void Start () {
 		m_body = GetComponent<Rigidbody2D> ();
-
+		m_currentRotation = transform.eulerAngles.z;
 	}
 		
 	// Update is called once per frame

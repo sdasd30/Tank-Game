@@ -17,7 +17,6 @@ public class Enemy_Turret_Fire_Main : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		{
-			Debug.Log ((Mathf.Abs (Mathf.DeltaAngle (Turret.direction, Turret.angle))));
 			if (Mathf.Abs (Mathf.DeltaAngle (Turret.direction, Turret.angle) + 90) < 4) {
 				if (coolDown <= 0) { 
 					float angle = (transform.rotation.eulerAngles.z + 90) * Mathf.Deg2Rad;

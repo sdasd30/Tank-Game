@@ -23,7 +23,6 @@ public class Projectile : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D(Collider2D other) {
-		Debug.Log ("Colision");
 		if (other.gameObject.GetComponent<Attackable> () != null) {
 			Destroy (this.gameObject);
 			Attackable a = other.gameObject.GetComponent<Attackable> ();
