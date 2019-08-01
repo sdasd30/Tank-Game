@@ -4,15 +4,15 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Horizontal_Rotation_Bar : MonoBehaviour {
-	Player_Movement player;
+	MovementPlayer player;
 	// Use this for initialization
 	void Start () {
-		player = GameObject.FindObjectOfType<Player_Movement>();
+		player = GameObject.FindObjectOfType<MovementPlayer>();
 	}
 
 	// Update is called once per frame
 	void Update () {
 		if (player != null)
-		this.GetComponent<Slider>().value = player.gameObject.GetComponent<Player_Movement> ().ReturnRotation(); 
+		this.GetComponent<Slider>().value = player.gameObject.GetComponent<MovementPlayer> ().ReturnRotation(); 
 	}
 }

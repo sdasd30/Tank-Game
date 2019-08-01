@@ -4,10 +4,10 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Health_Bar : MonoBehaviour {
-	Player_Movement player;
+	MovementPlayer player;
 	// Use this for initialization
 	void Start () {
-		player = GameObject.FindObjectOfType<Player_Movement>();
+		player = GameObject.FindObjectOfType<MovementPlayer>();
 	}
 	
 	// Update is called once per frame

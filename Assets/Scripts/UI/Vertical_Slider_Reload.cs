@@ -4,16 +4,16 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Vertical_Slider_Reload : MonoBehaviour {
-	Player_Turret_Fire_Main player;
+	TurretMainFirePlayer player;
 	// Use this for initialization
 	void Start () {
-		player = GameObject.FindObjectOfType<Player_Turret_Fire_Main>();
+		player = GameObject.FindObjectOfType<TurretMainFirePlayer>();
 	}
 
 	// Update is called once per frame
 	void Update () {
 		if (player != null) {
-			this.GetComponent<Slider> ().value = player.gameObject.GetComponent<Player_Turret_Fire_Main> ().ReturnCoolDown (); 
+			this.GetComponent<Slider> ().value = player.gameObject.GetComponent<TurretMainFirePlayer> ().ReturnCoolDown (); 
 		}
 	}
 }
