@@ -12,7 +12,6 @@ public class MovementPlayer : MonoBehaviour {
 	float curSpeed = 0;
 	float m_currentRotation;
 	Rigidbody2D m_body;
-	// Use this for initialization
 	void Start () {
 		m_body = GetComponent<Rigidbody2D> ();
 		m_currentRotation = transform.eulerAngles.z;
@@ -43,44 +42,51 @@ public class MovementPlayer : MonoBehaviour {
 			}
 		}
 		if (Input.GetKey("c")){ //Kill Rot
-			if (curRotSpeed > 4f) { //For Rotation
-				curRotSpeed -= 4f;
-			} else if (curRotSpeed < -8f) {
-				curRotSpeed += 4f;
+			if (curRotSpeed > 7f) { //For Rotation
+				curRotSpeed -= 7f;
+			} else if (curRotSpeed < -7f) {
+				curRotSpeed += 7f;
 			} else {
 				curRotSpeed = 0f;
 			}
 		}
 
 		if (Input.GetKey ("z")) { //Kill speed
-			if (curSpeed > .1f) { //For Regular Movement
-				curSpeed -= .1f;
-			} else if (curSpeed < -.1f){
-				curSpeed += .1f;
+			if (curSpeed > .2f) { //For Regular Movement
+				curSpeed -= .2f;
+			} else if (curSpeed < -.2f){
+				curSpeed += .2f;
 			} else {
 				curSpeed = 0f;
 			}
 		}
 		if (Input.GetKey("x")){ //Stop all Movement
-			if (curSpeed > .1f) { //For Regular Movement
-				curSpeed -= .1f;
-			} else if (curSpeed < -.1f){
-				curSpeed += .1f;
+			if (curSpeed > .2f) { //For Regular Movement
+				curSpeed -= .2f;
+			} else if (curSpeed < -.2f){
+				curSpeed += .2f;
 			} else {
 				curSpeed = 0f;
 			}
 
-			if (curRotSpeed > 4f) { //For Rotation
-				curRotSpeed -= 4f;
-			} else if (curRotSpeed < -8f) {
-				curRotSpeed += 4f;
-			} else {
-				curRotSpeed = 0f;
-			}
+            if (curRotSpeed > 7f)
+            { //For Rotation
+                curRotSpeed -= 7f;
+            }
+            else if (curRotSpeed < -7f)
+            {
+                curRotSpeed += 7f;
+            }
+            else
+            {
+                curRotSpeed = 0f;
+            }
 
 		}
 		m_currentRotation += curRotSpeed * Time.deltaTime;
-		m_body.transform.Translate (new Vector2(0f,curSpeed * Time.deltaTime));
+        //m_body.velocity = new Vector3 ()
+        //m_body.AddForce(transform.up*curSpeed);
+        m_body.transform.Translate (new Vector2(0f,curSpeed * Time.deltaTime));
 		m_body.transform.rotation = Quaternion.Euler (new Vector3(0f,0f,m_currentRotation));
 	}
 	public float ReturnSpeed(){
