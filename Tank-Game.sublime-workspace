@@ -1,0 +1,437 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"s",
+				"System\tSystem"
+			],
+			[
+				"vect",
+				"Vector3"
+			],
+			[
+				"about",
+				"about"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Assets/Scripts/MovementPlayer.cs",
+			"settings":
+			{
+				"buffer_size": 2146,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Assets/Scripts/Follow.cs",
+			"settings":
+			{
+				"buffer_size": 484,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/danie/Tank-Game/Assets/Scripts"
+	],
+	"file_history":
+	[
+		"/C/Users/danie/Tank-Game/Tank-Game.sln",
+		"/C/Users/danie/Tank-Game/Tank-Game.sublime-project",
+		"/C/Users/danie/Desktop/auto.ps1",
+		"/C/Users/danie/AppData/Local/Temp/Temp1_tristanmcpherson-R2API-2.1.0.zip/README.md",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/danie/oohsscienceolympiad.github.io/index.html",
+		"/C/Users/danie/Documents/My Games/Minecraft/Enigmatica 2 Light/settings.cfg",
+		"/C/Users/danie/Documents/My Games/Skyrim/Skyrim.ini",
+		"/C/Users/danie/Documents/My Games/Skyrim/SkyrimPrefs.ini",
+		"/C/Program Files (x86)/Steam/steamapps/common/Deus Ex/System/DeusEx.ini",
+		"/C/Hydrus Network/help/index.html",
+		"/C/Users/danie/Documents/My Games/COD/Call of Duty - Black Ops 2/zone/redacted/patch_redacted.ff",
+		"/C/Users/danie/oohsscienceolympiad.github.io/main.html",
+		"/C/Users/danie/Downloads/Call.of.Duty.Black.Ops.II-SKIDROW/skidrow.nfo",
+		"/C/Users/danie/Documents/My Games/COD/Call of Duty Black Ops 2/create-BO2-account.html",
+		"/C/Users/danie/Downloads/Forza.Horizon.3-CODEX/codex.nfo",
+		"/C/Users/danie/Downloads/codex-stellaris.distant.stars/codex.nfo",
+		"/C/Users/danie/Downloads/Stellaris.Distant.Stars.Update.v2.1.2-CODEX/codex.nfo",
+		"/C/Users/danie/Documents/Masterwork/Slim Edition II/Save/Models/Model1482/Base.id",
+		"/C/Users/danie/Documents/Masterwork/Interregnum/The Klub 17-0052.png",
+		"/C/Users/danie/Documents/Masterwork/- Extras -/Face Pack/Faces_List (62).png",
+		"/C/Users/danie/Documents/Masterwork/- Extras -/Face Pack/ehh.txt",
+		"/C/Users/danie/Documents/Masterwork/Slim Edition II/MODS/Pose Pack/Community/PoseEdit/BJ_HJ_FJ11.icon.png",
+		"/C/Users/danie/Documents/Masterwork/Slim Edition II/THIS__IS__NOT__A__DRILL__.txt",
+		"/C/Users/danie/Documents/Masterwork/Slim Edition II/MODS/Pose Pack/Community/PoseEdit/BJ_HJ_FJ1.icon.png",
+		"/C/Users/danie/Documents/Masterwork/Slim Edition II/Mod/ActiveMod/sperm06.png",
+		"/C/Users/danie/Documents/Masterwork/Slim Edition II/Mod/ActiveMod/sperm00.png",
+		"/C/Users/danie/Documents/Masterwork/- Addons -/Addon Rooms_List (5).txt",
+		"/C/Users/danie/Documents/Masterwork/Slim Edition II/MODS/Map Pack/Mod/ActiveMod/Room_374 H5/Icon.png",
+		"/C/Users/danie/Documents/Masterwork/Slim Edition II/MODS/Map Pack/Mod/ActiveMod/Room_374 H5/_level_definition.txt",
+		"/C/Users/danie/Documents/Masterwork/JGME/JoneSoft.txt",
+		"/C/Users/danie/Documents/Masterwork/- Extras -/Faces_List (62).png",
+		"/C/Users/danie/Documents/Masterwork/Slim Edition II/Save/Models/Model1010/Base.id",
+		"/C/Users/danie/Documents/Masterwork/Slim Edition II/Save/Models/Model0009/Base.id",
+		"/C/Users/danie/Documents/Masterwork/Slim Edition II/Save/Models/Model1016/Base.id",
+		"/C/Users/danie/Documents/Masterwork/Slim Edition II/Save/Models/Model1016/Body.cc",
+		"/C/Users/danie/Skelleton Man/DeepSpace-2019/src/main/python/visionTape2019.py",
+		"/C/Users/danie/Skelleton Man/DeepSpace-2019/src/main/java/org/usfirst/frc/team4611/robot/subsystems/navigation/sensors/Optical.java",
+		"/C/Users/danie/Skelleton Man/DeepSpace-2019/src/main/java/org/usfirst/frc/team4611/robot/subsystems/navigation/sensors/LineTracker.java",
+		"/C/Users/danie/Skelleton Man/DeepSpace-2019/src/main/java/org/usfirst/frc/team4611/robot/subsystems/navigation/sensors/New Text Document.txt",
+		"/C/Users/danie/Skelleton Man/DeepSpace-2019/src/main/python/grip.py",
+		"/C/Users/danie/Skelleton Man/DeepSpace-2019/readme.md"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Assets/Scripts/MovementPlayer.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2146,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1210,
+								1210
+							]
+						],
+						"settings":
+						{
+							"oops":
+							{
+								"0,5": "Unnecessary using directive.",
+								"1045,1050": "Predefined type 'System.Boolean' is not defined or imported",
+								"1051,1057": "Predefined type 'System.Object' is not defined or imported",
+								"1058,1059": "Predefined type 'System.String' is not defined or imported",
+								"106,117": "Predefined type 'System.Object' is not defined or imported",
+								"1083,1094": "Predefined type 'System.Boolean' is not defined or imported",
+								"1097,1099": "Predefined type 'System.Single' is not defined or imported",
+								"1137,1139": "Predefined type 'System.Single' is not defined or imported",
+								"1155,1166": "Predefined type 'System.Boolean' is not defined or imported",
+								"1170,1172": "Predefined type 'System.Single' is not defined or imported",
+								"1195,1197": "Predefined type 'System.Single' is not defined or imported",
+								"1229,1231": "Predefined type 'System.Single' is not defined or imported",
+								"1249,1254": "Predefined type 'System.Boolean' is not defined or imported",
+								"1255,1261": "Predefined type 'System.Object' is not defined or imported",
+								"1263,1264": "Predefined type 'System.String' is not defined or imported",
+								"1291,1299": "Predefined type 'System.Boolean' is not defined or imported",
+								"1302,1303": "Predefined type 'System.Single' is not defined or imported",
+								"1348,1349": "Predefined type 'System.Single' is not defined or imported",
+								"135,149": "Predefined type 'System.Void' is not defined or imported",
+								"1367,1375": "Predefined type 'System.Boolean' is not defined or imported",
+								"1379,1380": "Predefined type 'System.Single' is not defined or imported",
+								"1401,1402": "Predefined type 'System.Single' is not defined or imported",
+								"1433,1435": "Predefined type 'System.Single' is not defined or imported",
+								"1452,1457": "Predefined type 'System.Boolean' is not defined or imported",
+								"1458,1464": "Predefined type 'System.Object' is not defined or imported",
+								"1465,1466": "Predefined type 'System.String' is not defined or imported",
+								"1499,1507": "Predefined type 'System.Boolean' is not defined or imported",
+								"1510,1511": "Predefined type 'System.Single' is not defined or imported",
+								"1556,1557": "Predefined type 'System.Single' is not defined or imported",
+								"1575,1583": "Predefined type 'System.Boolean' is not defined or imported",
+								"1587,1588": "Predefined type 'System.Single' is not defined or imported",
+								"1609,1610": "Predefined type 'System.Single' is not defined or imported",
+								"1641,1643": "Predefined type 'System.Single' is not defined or imported",
+								"1658,1669": "Predefined type 'System.Boolean' is not defined or imported",
+								"1672,1674": "Predefined type 'System.Single' is not defined or imported",
+								"1712,1714": "Predefined type 'System.Single' is not defined or imported",
+								"1730,1741": "Predefined type 'System.Boolean' is not defined or imported",
+								"1745,1747": "Predefined type 'System.Single' is not defined or imported",
+								"176,181": "Predefined type 'System.Single' is not defined or imported",
+								"1770,1772": "Predefined type 'System.Single' is not defined or imported",
+								"1804,1806": "Predefined type 'System.Single' is not defined or imported",
+								"1855,1859": "Predefined type 'System.Object' is not defined or imported",
+								"1860,1869": "Predefined type 'System.Single' is not defined or imported",
+								"1873,1879": "Predefined type 'System.Void' is not defined or imported",
+								"1890,1899": "Predefined type 'System.Object' is not defined or imported",
+								"190,191": "Predefined type 'System.Int32' is not defined or imported",
+								"1905,1912": "Predefined type 'System.Void' is not defined or imported",
+								"1913,1915": "Predefined type 'System.Single' is not defined or imported",
+								"1927,1931": "Predefined type 'System.Object' is not defined or imported",
+								"1932,1941": "Predefined type 'System.Single' is not defined or imported",
+								"1964,1972": "Predefined type 'System.Void' is not defined or imported",
+								"1975,1985": "Predefined type 'System.Object' is not defined or imported",
+								"1986,1991": "Predefined type 'System.Object' is not defined or imported",
+								"1997,2004": "Predefined type 'System.Void' is not defined or imported",
+								"2005,2007": "Predefined type 'System.Single' is not defined or imported",
+								"2008,2010": "Predefined type 'System.Single' is not defined or imported",
+								"201,206": "Predefined type 'System.Single' is not defined or imported",
+								"2043,2048": "Predefined type 'System.Single' is not defined or imported",
+								"2095,2100": "Predefined type 'System.Single' is not defined or imported",
+								"218,220": "Predefined type 'System.Int32' is not defined or imported",
+								"230,235": "Predefined type 'System.Single' is not defined or imported",
+								"247,249": "Predefined type 'System.Int32' is not defined or imported",
+								"259,264": "Predefined type 'System.Single' is not defined or imported",
+								"26,31": "Unnecessary using directive.",
+								"278,279": "Predefined type 'System.Int32' is not defined or imported",
+								"282,287": "Predefined type 'System.Single' is not defined or imported",
+								"302,303": "Predefined type 'System.Int32' is not defined or imported",
+								"306,311": "Predefined type 'System.Single' is not defined or imported",
+								"323,324": "Predefined type 'System.Int32' is not defined or imported",
+								"327,332": "Predefined type 'System.Single' is not defined or imported",
+								"353,364": "Predefined type 'System.Object' is not defined or imported",
+								"406,410": "Predefined type 'System.Void' is not defined or imported",
+								"433,445": "Predefined type 'System.Object' is not defined or imported",
+								"446,457": "Predefined type 'System.Object' is not defined or imported",
+								"507,508": "Predefined type 'System.Single' is not defined or imported",
+								"552,556": "Predefined type 'System.Void' is not defined or imported",
+								"575,580": "Predefined type 'System.Boolean' is not defined or imported",
+								"581,587": "Predefined type 'System.Object' is not defined or imported",
+								"588,589": "Predefined type 'System.String' is not defined or imported",
+								"632,643": "Predefined type 'System.Boolean' is not defined or imported",
+								"688,692": "Predefined type 'System.Object' is not defined or imported",
+								"693,702": "Predefined type 'System.Single' is not defined or imported",
+								"719,724": "Predefined type 'System.Boolean' is not defined or imported",
+								"725,731": "Predefined type 'System.Object' is not defined or imported",
+								"732,733": "Predefined type 'System.String' is not defined or imported",
+								"776,787": "Predefined type 'System.Boolean' is not defined or imported",
+								"80,96": "Predefined type 'System.Void' is not defined or imported",
+								"833,837": "Predefined type 'System.Object' is not defined or imported",
+								"838,847": "Predefined type 'System.Single' is not defined or imported",
+								"864,869": "Predefined type 'System.Boolean' is not defined or imported",
+								"870,876": "Predefined type 'System.Object' is not defined or imported",
+								"877,878": "Predefined type 'System.String' is not defined or imported",
+								"891,899": "Predefined type 'System.Boolean' is not defined or imported",
+								"954,959": "Predefined type 'System.Boolean' is not defined or imported",
+								"960,966": "Predefined type 'System.Object' is not defined or imported",
+								"967,968": "Predefined type 'System.String' is not defined or imported",
+								"981,989": "Predefined type 'System.Boolean' is not defined or imported"
+							},
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 378.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Assets/Scripts/Follow.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 484,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								459,
+								459
+							]
+						],
+						"settings":
+						{
+							"oops":
+							{
+								"0,5": "Unnecessary using directive.",
+								"107,113": "Predefined type 'System.Void' is not defined or imported",
+								"14,19": "Unnecessary using directive.",
+								"140,149": "Predefined type 'System.Object' is not defined or imported",
+								"166,175": "Predefined type 'System.Object' is not defined or imported",
+								"199,203": "Predefined type 'System.Void' is not defined or imported",
+								"224,228": "Predefined type 'System.Void' is not defined or imported",
+								"261,269": "Predefined type 'System.Void' is not defined or imported",
+								"276,283": "Predefined type 'System.Void' is not defined or imported",
+								"301,302": "Predefined type 'System.Single' is not defined or imported",
+								"319,320": "Predefined type 'System.Single' is not defined or imported",
+								"337,338": "Predefined type 'System.Single' is not defined or imported",
+								"340,341": "Predefined type 'System.Int32' is not defined or imported",
+								"361,372": "Predefined type 'System.Void' is not defined or imported",
+								"379,386": "Predefined type 'System.Void' is not defined or imported",
+								"388,390": "Predefined type 'System.Single' is not defined or imported",
+								"391,393": "Predefined type 'System.Single' is not defined or imported",
+								"40,45": "Unnecessary using directive.",
+								"421,422": "Predefined type 'System.Single' is not defined or imported"
+							},
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 126.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.variable_get":
+	{
+		"height": 31.0
+	},
+	"pinned_build_system": "",
+	"project": "Tank-Game.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 199.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
