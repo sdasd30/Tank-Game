@@ -15,9 +15,9 @@ public class TurretRotatePlayer: MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		m_body = GetComponent<Rigidbody2D> ();
-		m_currentRotation = transform.eulerAngles.z;
-        parentRotation = GetComponentInParent<Transform>();
-	}
+		m_currentRotation = 0f;
+        m_body.transform.localRotation = Quaternion.Euler(new Vector3(0f, 0f, m_currentRotation));
+    }
 		
     /*void Update()
     {

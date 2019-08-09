@@ -1,8 +1,9 @@
-﻿<Properties StartupItem="Assembly-CSharp.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\MovementEnemy.cs">
+﻿<Properties StartupItem="UnityEngine.TestRunner.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\TurretFireEnemy.cs">
     <Files>
       <File FileName="Assets\Scripts\MovementEnemy.cs" Line="6" Column="27" />
+      <File FileName="Assets\Scripts\TurretFireEnemy.cs" Line="21" Column="20" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

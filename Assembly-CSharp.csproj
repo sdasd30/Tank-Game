@@ -54,6 +54,10 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Attackable.cs" />
+     <Compile Include="Assets\Scripts\Enemies\TankFireEnemy.cs" />
+     <Compile Include="Assets\Scripts\Enemies\TurretDumb.cs" />
+     <Compile Include="Assets\Scripts\Enemies\TurretFireDumb.cs" />
+     <Compile Include="Assets\Scripts\Enemies\TurretRotateEnemy.cs" />
      <Compile Include="Assets\Scripts\Follow.cs" />
      <Compile Include="Assets\Scripts\Game\Enemy.cs" />
      <Compile Include="Assets\Scripts\Game\GameCheckEnemies.cs" />
@@ -62,9 +66,7 @@
      <Compile Include="Assets\Scripts\Projectile.cs" />
      <Compile Include="Assets\Scripts\Solid.cs" />
      <Compile Include="Assets\Scripts\StayWithParent.cs" />
-     <Compile Include="Assets\Scripts\TurretFireEnemy.cs" />
      <Compile Include="Assets\Scripts\TurretMainFirePlayer.cs" />
-     <Compile Include="Assets\Scripts\TurretRotateEnemy.cs" />
      <Compile Include="Assets\Scripts\TurretRotatePlayer.cs" />
      <Compile Include="Assets\Scripts\UI\Health_Bar.cs" />
      <Compile Include="Assets\Scripts\UI\Horizontal_Rotation_Bar.cs" />
@@ -82,6 +84,9 @@
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>C:/Users/danie/Tank-Game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Tilemap.Extras.Editor">
+ <HintPath>C:/Users/danie/Tank-Game/Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/danie/Tank-Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -109,6 +114,9 @@
  </Reference>
  <Reference Include="Unity.2D.Tilemap.Editor">
  <HintPath>C:/Users/danie/Tank-Game/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Tilemap.Extras">
+ <HintPath>C:/Users/danie/Tank-Game/Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.SpatialTracking">
  <HintPath>C:/Users/danie/Tank-Game/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
