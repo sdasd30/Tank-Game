@@ -13,7 +13,6 @@ public class Follow : MonoBehaviour
     void Update()
     {
        transform.position = new Vector3 (Target.position.x,Target.position.y,Target.position.z -5);
-       Debug.Log(OptionalFollowRot.rotation.z);
        transform.eulerAngles = new Vector3 (0f,0f,OptionalFollowRot.eulerAngles.z);
     }
 }

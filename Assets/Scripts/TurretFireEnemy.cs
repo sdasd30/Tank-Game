@@ -26,7 +26,7 @@ public class TurretFireEnemy : MonoBehaviour {
 					coolDown = fireRate;
 				}
 			}
-			coolDown--;
+			coolDown -= Time.deltaTime;
 		}
 	}
 }

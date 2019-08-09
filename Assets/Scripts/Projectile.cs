@@ -7,6 +7,7 @@ public class Projectile : MonoBehaviour {
 	Rigidbody2D m_body;
 	public float speed;
 	public float damage;
+    public int hitsWho;
 	public void SetAngle (float rotation) {
 		m_body = GetComponent<Rigidbody2D> ();
 		m_body.transform.rotation = Quaternion.Euler (new Vector3(0f,0f,rotation));
@@ -23,12 +24,26 @@ public class Projectile : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D(Collider2D other) {
-		if (other.gameObject.GetComponent<Attackable> () != null) {
-			Destroy (this.gameObject);
-			Attackable a = other.gameObject.GetComponent<Attackable> ();
-			a.TakeDamage (damage);
-		}
-		else if (other.gameObject.GetComponent<Solid> () != null) {
+        if (hitsWho == 0)
+        {
+            if (other.gameObject.GetComponent<Attackable>() != null && other.gameObject.tag == "Player")
+            { 
+                Destroy(this.gameObject);
+                Attackable a = other.gameObject.GetComponent<Attackable>();
+                a.TakeDamage(damage);
+            }
+        }
+        else if (hitsWho == 1)
+        {
+            if (other.gameObject.GetComponent<Attackable>() != null && other.gameObject.tag == "Enemy")
+            {
+                Destroy(this.gameObject);
+                Attackable a = other.gameObject.GetComponent<Attackable>();
+                a.TakeDamage(damage);
+            }
+        }
+
+		if (other.gameObject.GetComponent<Solid> () != null) {
 			Destroy (this.gameObject);
 		}
 	}
