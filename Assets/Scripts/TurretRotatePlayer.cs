@@ -5,6 +5,9 @@ using UnityEngine;
 
 public class TurretRotatePlayer: MonoBehaviour {
 	Rigidbody2D m_body;
+    //public GameObject parent;
+    [HideInInspector] public Quaternion myRot;
+    Transform parentRotation;
 	public float rotSpeed = 90;
 	public float rotLimit = 180;
 	float curRotSpeed = 0;
@@ -13,8 +16,16 @@ public class TurretRotatePlayer: MonoBehaviour {
 	void Start () {
 		m_body = GetComponent<Rigidbody2D> ();
 		m_currentRotation = transform.eulerAngles.z;
+        parentRotation = GetComponentInParent<Transform>();
 	}
 		
+    /*void Update()
+    {
+        //Debug.Log("Tank think: " + transform.localRotation.z);
+       // transform.rotation = Quaternion.Euler (new Vector3 (0f,0f,-parentRotation.rotation.z));
+        //myRot = Quaternion.Euler(new Vector3(0f, 0f, -parentRotation.rotation.z));
+    }*/
+
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetKey("left")){
@@ -47,6 +58,6 @@ public class TurretRotatePlayer: MonoBehaviour {
 		}
 			
 		m_currentRotation += curRotSpeed * Time.deltaTime;
-		m_body.transform.rotation = Quaternion.Euler (new Vector3(0f,0f,m_currentRotation));
+		m_body.transform.localRotation = Quaternion.Euler (new Vector3(0f,0f,m_currentRotation));
 	}
 }

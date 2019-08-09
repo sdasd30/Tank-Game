@@ -33,49 +33,51 @@ public class MovementPlayer : MonoBehaviour {
 		}
 		if (Input.GetKey("w")){
 			if (curSpeed < speedLimit) {
-				curSpeed += speed;
+				curSpeed += speed * Time.deltaTime;
 			}
 		}
 		if (Input.GetKey("s")){
 			if (curSpeed > -speedLimit) {
-				curSpeed -= speed;
+				curSpeed -= speed * Time.deltaTime;
 			}
 		}
 		if (Input.GetKey("c")){ //Kill Rot
-			if (curRotSpeed > 7f) { //For Rotation
-				curRotSpeed -= 7f;
-			} else if (curRotSpeed < -7f) {
-				curRotSpeed += 7f;
+			if (curRotSpeed > 600f * Time.deltaTime) { //For Rotation
+				curRotSpeed -= 600f * Time.deltaTime;
+			} else if (curRotSpeed < -600f * Time.deltaTime) {
+				curRotSpeed += 600f * Time.deltaTime;
 			} else {
 				curRotSpeed = 0f;
 			}
 		}
 
 		if (Input.GetKey ("z")) { //Kill speed
-			if (curSpeed > .2f) { //For Regular Movement
-				curSpeed -= .2f;
-			} else if (curSpeed < -.2f){
-				curSpeed += .2f;
+			if (curSpeed > 6f * Time.deltaTime) { //For Regular Movement
+				curSpeed -= 6f * Time.deltaTime;
+			} else if (curSpeed < -6f * Time.deltaTime)
+            {
+				curSpeed += 6f * Time.deltaTime;
 			} else {
 				curSpeed = 0f;
 			}
 		}
 		if (Input.GetKey("x")){ //Stop all Movement
-			if (curSpeed > .2f) { //For Regular Movement
-				curSpeed -= .2f;
-			} else if (curSpeed < -.2f){
-				curSpeed += .2f;
+			if (curSpeed > 6f * Time.deltaTime) { //For Regular Movement
+				curSpeed -= 6f * Time.deltaTime;
+			} else if (curSpeed < -6f * Time.deltaTime)
+            {
+				curSpeed += 6f * Time.deltaTime;
 			} else {
 				curSpeed = 0f;
 			}
 
-            if (curRotSpeed > 7f)
+            if (curRotSpeed > 600f * Time.deltaTime)
             { //For Rotation
-                curRotSpeed -= 7f;
+                curRotSpeed -= 700f * Time.deltaTime;
             }
-            else if (curRotSpeed < -7f)
+            else if (curRotSpeed < -600f * Time.deltaTime)
             {
-                curRotSpeed += 7f;
+                curRotSpeed += 600f * Time.deltaTime;
             }
             else
             {
